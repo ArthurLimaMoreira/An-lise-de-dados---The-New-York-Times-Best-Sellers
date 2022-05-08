@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>New York Times Best Sellers | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="All New York Times Best Sellers List from 2010 to 2019 (10 years)" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="arts and entertainment,internet,online communities,nlp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/javascript">
+    window["pageRequestStartTime"] = 1652025699029;
+    window["pageRequestEndTime"] = 1652025699118;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/dhruvildave/new-york-times-best-sellers" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=1f6d99669e949b7dfa2b" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=c938137e20b65e283de9" />
+  
+    
+ 
+      <script nonce="HyH8fKn0Jja/lbJL8i9TJA==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="HyH8fKn0Jja/lbJL8i9TJA==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/dhruvildave/new-york-times-best-sellers" />
+    <meta property="og:title" content="New York Times Best Sellers" />
+    <meta property="og:description" content="All New York Times Best Sellers List from 2010 to 2019 (10 years)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/1018720/1717623/b5277392556ba225071993d0995d6892/dataset-card.jpg?t=2020-12-06-16-00-55" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"New York Times Best Sellers","description":"### Content\n\nThe data contains Best Sellers List published by The New York Times every Sunday. The temporal range is from 03-Jan-2010 to 29-Dec-2019 which makes it a whole decade of data. Each week, 5 books are named as best sellers for each category.\n\n### Acknowledgements\n\n![Attribution](https://developer.nytimes.com/files/poweredby_nytimes_200c.png)\n\nImage URL: [Sincerely Media - Unsplash](https://unsplash.com/photos/nGrfKmtwv24)","url":"https://www.kaggle.com/dhruvildave/new-york-times-best-sellers","version":2,"keywords":["subject, arts and entertainment","subject, science and technology, internet","subject, science and technology, internet, online communities","analysis, nlp"],"license":{"@type":"CreativeWork","name":"CC BY-NC-SA 4.0","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/"},"identifier":["1018720"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Dhruvil Dave","url":"https://www.kaggle.com/dhruvildave","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4331575-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/dhruvildave/new-york-times-best-sellers/download","contentSize":"3650055 bytes"}],"commentCount":1,"dateModified":"2020-12-06T11:49:51.23Z","discussionUrl":"https://www.kaggle.com/dhruvildave/new-york-times-best-sellers/discussion","alternateName":"All New York Times Best Sellers List from 2010 to 2019 (10 years)","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1018720/1717623/b5277392556ba225071993d0995d6892/dataset-card.jpg?t=2020-12-06-16-00-55","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":1},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":505},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":4793},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":26}]}</script>
+
+
+  
+    
+
+  
+    
+    
+<script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8FbwD2QDBxpLtyrOjK44q8aOMkAjFW9P2RL_9HLuarOKSdNEkS1NHrKr65vTt9HFoW0TlNED7Qp_Y42vIz8jSYBgxBRPS5MfmDcyPNooYXG3aA',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTIwMjY1OTksIlVzZXJJZCI6MH0.X9KDmmYYQGlM48vJRhnH6ZtHQNB3aCjZ4kxt3i9wRPA',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="HyH8fKn0Jja/lbJL8i9TJA==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="HyH8fKn0Jja/lbJL8i9TJA==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" src="/static/assets/runtime.js?v=c43288e44a42cc292b53" data-turbolinks-track="reload"></script>
+  <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" src="/static/assets/vendor.js?v=a2004e5f19533473e100" data-turbolinks-track="reload"></script>
+  <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" src="/static/assets/app.js?v=ca34bff2a3c0f78fcd1b" data-turbolinks-track="reload"></script>
+    <script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="HyH8fKn0Jja/lbJL8i9TJA==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="HyH8fKn0Jja/lbJL8i9TJA==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":1018720,"slug":"new-york-times-best-sellers","title":"New York Times Best Sellers","description":"### Content\n\nThe data contains Best Sellers List published by The New York Times every Sunday. The temporal range is from 03-Jan-2010 to 29-Dec-2019 which makes it a whole decade of data. Each week, 5 books are named as best sellers for each category.\n\n### Acknowledgements\n\n![Attribution](https://developer.nytimes.com/files/poweredby_nytimes_200c.png)\n\nImage URL: [Sincerely Media - Unsplash](https://unsplash.com/photos/nGrfKmtwv24)","viewCount":4793,"downloadCount":505,"scriptCount":4,"topicCount":1,"owner":{"id":4331575,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4331575-kg.jpg","name":"Dhruvil Dave","profileUrl":"/dhruvildave","slug":"dhruvildave","userTier":"MASTER"},"license":{"id":3,"name":"CC BY-NC-SA 4.0","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/"},"overview":"All New York Times Best Sellers List from 2010 to 2019 (10 years)","collaboratorList":{"owner":{"userId":4331575,"profileUrl":"/dhruvildave","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4331575-kg.jpg","name":"Dhruvil Dave","slug":"dhruvildave","userTier":"MASTER","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1018720/1717623/b5277392556ba225071993d0995d6892/dataset-cover.jpg?t=2020-12-06-16-00-55","data":{"totalSize":3650055,"isFileset":true,"canSeeDownload":true,"firestorePath":"iT5Zvi8W79hSr3Wp7lni/versions/Zt5iaTmlfo9lXwldx9P4","downloadUrl":"/datasets/dhruvildave/dhruvildave/download?datasetVersionNumber=2","versionId":1754496,"id":1041189},"voteCount":26,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","downloadUrl":"/datasets/dhruvildave/new-york-times-best-sellers/download","lastUpdateTime":"2020-12-06T11:49:51.230Z","datasetVersionNumber":2,"creatorDisplayName":"Dhruvil Dave","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1018720/1717623/b5277392556ba225071993d0995d6892/dataset-card.jpg?t=2020-12-06-16-00-55","categories":{"tags":[{"id":2200,"name":"arts and entertainment","fullPath":"subject \u003E arts and entertainment","listingUrl":"/datasets?group=public\u0026tagids=2200","description":"Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience\u0027s attention.","datasetCount":19613,"notebookCount":23187,"tagUrl":"/tags/arts-and-entertainment","displayName":"Arts and Entertainment"},{"id":12116,"name":"internet","fullPath":"subject \u003E science and technology \u003E internet","listingUrl":"/datasets?group=public\u0026tagids=12116","description":"An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.","datasetCount":8999,"competitionCount":18,"notebookCount":1963,"tagUrl":"/tags/internet","displayName":"Internet","fontAwesomeIcon":"globe"},{"id":16489,"name":"online communities","fullPath":"subject \u003E science and technology \u003E internet \u003E online communities","listingUrl":"/datasets?group=public\u0026tagids=16489","description":"","datasetCount":5930,"competitionCount":2,"notebookCount":1235,"tagUrl":"/tags/online-communities","displayName":"Online Communities"},{"id":13204,"name":"nlp","fullPath":"analysis \u003E nlp","listingUrl":"/datasets?group=public\u0026tagids=13204","description":"Natural Language Processing gives a computer program the ability to extract meaning human language. Applications include sentiment analysis, translation, and speech recognition.","datasetCount":2040,"competitionCount":10,"notebookCount":5727,"tagUrl":"/tags/nlp","displayName":"NLP"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/dhruvildave/new-york-times-best-sellers","forumId":1035524,"datasetVersionId":1717623,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":2,"diffType":"UNVERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script>
+<script nonce="HyH8fKn0Jja/lbJL8i9TJA==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="HyH8fKn0Jja/lbJL8i9TJA==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
